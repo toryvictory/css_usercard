@@ -44,49 +44,51 @@ body {
     overflow: hidden;
     margin: auto;
 }
+
 .userDescription {
     text-align: justify;
     padding: 0 2em;
     line-height: 1.4em;
 }
- .userStatContainer {
-     padding-top: 2em;
-     text-align: center;
- }
 
- .userStatItem {
-     display: inline-block;
-     margin: 0 1em;
- }
+.userStatContainer {
+    padding-top: 2em;
+    text-align: center;
+}
 
- .statValue {
-     font-size: 2em;
-     text-align: center;
-     padding-bottom: 0.2em;
- }
+.userStatItem {
+    display: inline-block;
+    margin: 0 1em;
+}
 
- .statName {
-     text-transform: capitalize;
-     text-align: center;
- }
+.statValue {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 0.2em;
+}
 
- .buttonContainer {
-     text-align: center;
-     padding: 2em 0;
- }
+.statName {
+    text-transform: capitalize;
+    text-align: center;
+}
 
- .buttonContainerItem {
-     display: inline-block;
-     padding: 1em 2em;
-     overflow: hidden;
-     border-radius: 40px;
-     width: 20%;
- }
+.buttonContainer {
+    text-align: center;
+    padding: 2em 0;
+}
 
- .buttonContainerItem a {
-     text-decoration: none;
-     font-size: 1.2em;
- }
+.buttonContainerItem {
+    display: inline-block;
+    padding: 1em 2em;
+    overflow: hidden;
+    border-radius: 40px;
+    width: 20%;
+}
+
+.buttonContainerItem a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
 
 
 
