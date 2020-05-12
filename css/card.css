@@ -10,8 +10,8 @@ body {
     min-width: 200px;
     border: 2px solid #586ea8;
     border-radius: 20px;
-    font-size: 18px;
-    font-family: Arial;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 4em auto;
     overflow: hidden;
 }
@@ -44,4 +44,54 @@ body {
     overflow: hidden;
     margin: auto;
 }
+.userDescription {
+    text-align: justify;
+    padding: 0 2em;
+    line-height: 1.4em;
+}
+ .userStatContainer {
+     padding-top: 2em;
+     text-align: center;
+ }
+
+ .userStatItem {
+     display: inline-block;
+     margin: 0 1em;
+ }
+
+ .statValue {
+     font-size: 2em;
+     text-align: center;
+     padding-bottom: 0.2em;
+ }
+
+ .statName {
+     text-transform: capitalize;
+     text-align: center;
+ }
+
+ .buttonContainer {
+     text-align: center;
+     padding: 2em 0;
+ }
+
+ .buttonContainerItem {
+     display: inline-block;
+     padding: 1em 2em;
+     overflow: hidden;
+     border-radius: 40px;
+     width: 20%;
+ }
+
+ .buttonContainerItem a {
+     text-decoration: none;
+     font-size: 1.2em;
+ }
+
+
+
+
+
+
+
 
