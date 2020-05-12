@@ -1,2 +1,47 @@
-@import 'reset.css'
+@import 'reset.css';
+
+body {
+    background-color: #6f7889;
+}
+
+.userCard {
+    width: 100%;
+    max-width: 350px;
+    min-width: 250px;
+    border: 2px solid #586ea8;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Arial;
+    margin: 4em auto;
+    overflow: hidden;
+}
+
+.userFullName h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e6ebee;
+    margin: 0;
+    padding: 1em 2px;
+}
+
+.userInfo {
+    color: white;
+    background-color: #393c45;
+}
+
+.userPhotoContainer img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.userPhotoContainer {
+    width: 130px;
+    height: 130px;
+    padding: 2em 0;
+    overflow: hidden;
+    margin: auto;
+}
 
